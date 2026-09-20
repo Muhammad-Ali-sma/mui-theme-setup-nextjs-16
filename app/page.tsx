@@ -5,7 +5,7 @@ import ThemeToggle from "@/components/theme-toggle";
 
 export default function HomePage() {
   return (
-    <Stack spacing={3} sx={{ p: 4, maxWidth: '300px' }}>
+    <Stack spacing={3} sx={{ p: 4, maxWidth: '500px', mx: 'auto' }}>
       <Stack direction="row" sx={{ justifyContent: "center", alignItems: "center" }}>
         <Typography variant="h4">MUI + Next.js 16</Typography>
         <ThemeToggle />
